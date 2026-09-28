@@ -2,6 +2,15 @@
 
 Projeto de estudo para consolidar os fundamentos de MySQL ao concluir um curso de banco de dados. O trabalho percorreu a definição incremental de regras de negócio, DER conceitual, modelo relacional, implementação, população e dez exercícios de consulta SQL.
 
+## Contexto
+
+Este projeto foi desenvolvido como exercício independente de consolidação
+após a conclusão do curso **MySQL [40 Horas]**, do **Curso em Vídeo**,
+ministrado por **Gustavo Guanabara**.
+
+O escopo, a modelagem da Pokédex e as consultas foram desenvolvidos
+como prática posterior ao conteúdo estudado no curso.
+
 ## Modelo e tecnologias
 
 O banco representa espécies de Pokémon. `POKEMON` se relaciona com `TIPO`, `HABILIDADE` e `MOVIMENTO` por tabelas associativas com PKs compostas. Cada movimento pertence a um tipo. Uma FK autorreferenciada registra a pré-evolução e permite evolução ramificada.
